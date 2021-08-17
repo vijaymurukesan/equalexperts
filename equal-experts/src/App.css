@@ -1,0 +1,63 @@
+body {
+    background: #111111;
+}
+/* common  */
+.ariaHide {
+    visibility: hidden;
+    position:absolute;
+    top:-1000;
+}
+
+.app {
+    width: 256px;
+    background: #1795d4;
+    margin: 30px auto 0 auto;
+    padding: 1rem;
+}
+
+.appLogo {
+    width: 6rem;
+}
+
+.display {
+    background: white;
+    border: 3px solid #0880bd;
+    border-radius: 5px;
+    font-size: 2rem;
+    min-height: 2.4rem;
+    overflow: auto;
+    margin: 0.75rem 0;
+    padding: 0.5rem;
+}
+
+.keypad div {
+    width: 100px;
+    display:inline-block;
+}
+.keypad div button {
+    background: #0d83fa;
+    display: inline-block;
+    width: 50px;
+    padding: 1rem 0;
+    border: 1px solid #16a1e7;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.keypad div button:hover {
+    background: black;
+    color: white;
+}
+
+.keypad .expressionKeys button {
+    background: #013191;
+    color: white;
+    border: 1px solid #16a1e7;
+}
+
+.keypad .numberKeys {
+    width: 156px;
+}
+.keypad .numberKeys .keyType_0 {
+ width: 150px;
+}
